@@ -1,0 +1,518 @@
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}  
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #a886dd;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+.menu li a {
+    color: #00c69e;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menu li a:hover {
+    border-bottom: 2px solid #a886dd;
+    padding-bottom: 0px;
+}
+
+.header {
+    width: 100%;
+    background: url(https://cdn.pic.in.th/file/picinth/50419CC5-F239-4985-85D3-2F7952E917A9.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.agent {
+    background-image: url(https://cdn.pic.in.th/file/picinth/5B56858F-466A-4F24-9568-D9FBE02F0973.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog-con1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: #a886dd;
+    box-shadow: 0 0 5px #a886dd,0 0 25px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.blog-item a:hover {
+    background-color: #00c69e;
+    box-shadow: 0 0 5px #00c69e, 0 0 25px #00c69e,
+     0 0 50px #00c69e,0 0 100px #00c69e,
+     0 0 200px #00c69e;
+}
+
+.blog-item  {
+    margin-top: 150px;
+    color: #fff;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.mean {
+    width: 100%;
+    height: 500px;
+}
+
+.mean_area img {
+    float: left;
+}
+
+.mean_text {
+    width: 500px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+.mean_area h1 {
+    margin: 0;
+}
+
+.malware {
+    width: 100%;
+    height: 700px;
+}
+
+.malware_area img {
+    margin-top: 80px;
+    float: right;
+}
+
+.malware_text {
+    width: 500px;
+    float: right;
+    margin-right: 70px;
+}
+.malware_area h1 {
+    margin: 0;
+}
+
+.sec {
+    width: 100%;
+    height: 600px;
+}
+
+.sec_area img {
+    float: left;
+}
+
+.sec_text {
+    width: 500px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.sec_area h1 {
+    margin: 0;
+}
+
+.law {
+    width: 100%;
+    height: 500px;
+}
+
+.law_area img {
+    float: right;
+}
+
+.law_text {
+    width: 500px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 120px;
+}
+.law_area h1 {
+    margin: 0;
+}
+
+.refer_area {
+    height: 250px;
+    margin: 20px 30px;
+}
+
+.refer_area img {
+    float: left;
+}
+
+.footer-top {
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        max-width: 600px;
+    }  
+    .header {
+        height: 350px;
+    }
+    nav {
+        padding: 0.8rem;
+    }
+    
+    .logo a {
+        font-size: 1.5rem;
+    }
+    .menu li {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+    .agent {
+        height: 350px;
+    }
+    .blog-con1 {
+        font-size: 14px;
+        column-gap: 0.8rem;
+    }
+    .blog-item {
+        margin-top: 50px;
+    }
+    .blog-item a {
+        padding: 0.5rem 1rem;
+    }
+   
+    .mean {
+        height: 350px;
+    }
+    .mean_area img {
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    .mean_text {
+        font-size: 14px;
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .malware {
+        height: 800px;
+    }
+    .malware_area img {
+        width: 260px;
+        margin-top: 100px;
+    }
+    
+    .malware_text {
+        font-size: 14px;
+        width: 250px;
+        margin-left: 5px;
+    }
+
+    .sec {
+        height: 800px;
+    }
+    .sec_area img {
+        width: 300px;
+        margin-top: 150px;
+    }
+    
+    .sec_text {
+        font-size: 14px;
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .law {
+        height: 350px;
+    }
+    .law_area img {
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    .law_text {
+        font-size: 14px;
+        width: 220px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .refer_area {
+        height: 150px;
+        font-size: 12px;
+    }
+
+    .refer_area img {
+        width: 40px;
+    }
+
+    .footer-top {
+        font-size: 11px;
+        padding: 0.5rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 500px;
+    }  
+    .header {
+        height: 300px;
+    }
+    nav {
+        padding: 0.5rem;
+    }
+    
+    .logo a {
+        font-size: 1.5rem;
+    }
+    .menu li {
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+    }
+    .agent {
+        height: 320px;
+    }
+    .blog-con1 {
+        font-size: 10px;
+        column-gap: 0.8rem;
+    }
+    .blog-item {
+        margin-top: 30px;
+    }
+    .blog-item a {
+        padding: 0.5rem 1rem;
+    }
+    .mean {
+        height: 250px;
+    }
+    .mean_area img {
+        width: 200px;
+        margin-top: 5px;
+    }
+    
+    .mean_text {
+        font-size: 10px;
+        width: 220px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    .malware {
+        height: 550px;
+    }
+    .malware_area img {
+        width: 200px;
+        margin-top: 100px;
+    }
+    
+    .malware_text {
+        font-size: 10px;
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    .sec {
+        height: 500px;
+    }
+    .sec_area img {
+        width: 200px;
+        margin-top: 150px;
+    }
+    
+    .sec_text {
+        font-size: 10px;
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .law {
+        height: 250px;
+    }
+    .law_area img {
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .law_text {
+        font-size: 10px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .refer_area {
+        height: 150px;
+        font-size: 10px;
+    }
+
+    .refer_area img {
+        width: 30px;
+    }
+
+    .footer-top {
+        font-size: 10px;
+        padding: 0.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 380px;
+    }  
+    .header {
+        height: 200px;
+    }
+    nav {
+        padding: 0.3rem;
+    }
+    
+    .logo a {
+        font-size: 1rem;
+    }
+    .menu li {
+        font-size: 0.5rem;
+        margin: 0 0.3rem;
+    }
+    .agent {
+        height: 230px;
+    }
+    .blog-con1 {
+        font-size: 10px;
+        column-gap: 0.5rem;
+    }
+    .blog-item {
+        margin-top: 10px;
+    }
+    .blog-item a {
+        padding: 0.3rem 0.5rem;
+    }
+    
+    .mean {
+        height: 200px;
+    }
+    .mean_area img {
+        width: 150px;
+        margin-top: 3px;
+    }
+    
+    .mean_text {
+        font-size: 10px;
+        width: 200px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .malware {
+        height: 550px;
+    }
+    .malware_area img {
+        width: 150px;
+        margin-top: 100px;
+    }
+    
+    .malware_text {
+        font-size: 10px;
+        width: 200px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .sec {
+        height: 500px;
+    }
+    .sec_area img {
+        width: 150px;
+        margin-top: 150px;
+    }
+    
+    .sec_text {
+        font-size: 10px;
+        width: 200px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .law {
+        height: 250px;
+    }
+    .law_area img {
+        width: 150px;
+        margin-top: 10px;
+    }
+    
+    .law_text {
+        font-size: 10px;
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .refer_area {
+        height: 150px;
+        font-size: 10px;
+    }
+
+    .refer_area img {
+        width: 30px;
+    }
+
+    .footer-top {
+        font-size: 10px;
+        padding: 0.3rem;
+    }
+
+}
